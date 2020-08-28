@@ -1,0 +1,40 @@
+#respostas{
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+#respostas div {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    width: 350px;
+}
+.entradas{
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Primeira questão</title>
+  </head>
+  <body>
+    <div class="entradas">
+      <textarea type="input" id="dados" cols="30" rows="10"></textarea>
+      <div class="select">
+        <h4>Unidade de entrada</h4>
+        <select id="temp">
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+      </div>
+      <div class="select">
+        <h4>Unidade de saída</h4>
+        <select id="saida">
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+      </div>
+    </div>
+
+    <button id="BntConversao">Converter</button>
+    <h4>Respostas</h4>
+    <div id="respostas" class="respostas"></div>
+    <script src="Js/script.js"></script>
+  </body>
+</html>
