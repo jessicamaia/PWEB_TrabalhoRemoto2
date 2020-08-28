@@ -55,7 +55,7 @@ BtnConv.addEventListener("click", () => {
       });
     }
   }
-  //Não deu certo, dá um número aproximado.
+  
   if (String(temperatura) == "Kelvin") {
     if (String(saida) == "Celsius") {
       valor.forEach((element) => {
@@ -68,7 +68,6 @@ BtnConv.addEventListener("click", () => {
       });
     }
 
-    //Não deu certo, dá um número aproximado
     if (String(saida) == "Fahrenheit") {
       valor.forEach((element) => {
         const converter = parseFloat(element);
