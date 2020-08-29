@@ -83,7 +83,7 @@ BtnConv.addEventListener("click", () => {
 
 function ExibirResultado(converter, ResultadoConversao) {
   let div = document.createElement("div");
-  let exibir = document.createTextNode(`${converter}->${ResultadoConversao}`);
+  let exibir = document.createTextNode(`${!isNaN(converter) ? converter : "valor incorreto"}->${!isNaN(ResultadoConversao) ? ResultadoConversao : "valor incorreto"}`);
   div.appendChild(exibir);
   respostas.appendChild(div);
 }
