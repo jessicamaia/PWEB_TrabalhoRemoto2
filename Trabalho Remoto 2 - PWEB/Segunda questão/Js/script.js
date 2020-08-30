@@ -45,7 +45,8 @@ function ExibirResultado(item) {
   }   
 
   function ordenarPorQuantidade(array) {
-    array.sort((a, b) =>         if (a.quantidade < b.quantidade) {
+    array.sort((a, b) => {
+        if (a.quantidade < b.quantidade) {
           return -1;
         }
     
